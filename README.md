@@ -1,2 +1,1 @@
-# website-data
-Files for techbeatly.com
+Font files for the webite.
