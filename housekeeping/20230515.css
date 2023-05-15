@@ -1,0 +1,442 @@
+@font-face {
+  font-family: 'Metropolis';
+  src: url('https://fonts.techbeatly.com/Metropolis-Light.woff2') format('woff2'),
+    url('https://fonts.techbeatly.com/Metropolis-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; // this is important for safari
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('https://fonts.techbeatly.com/Metropolis-Regular.woff2') format('woff2'),
+    url('https://fonts.techbeatly.com/Metropolis-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; // this is important for safari
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('https://fonts.techbeatly.com/Metropolis-Medium.woff2') format('woff2'),
+    url('https://fonts.techbeatly.com/Metropolis-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; // this is important for safari
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('https://fonts.techbeatly.com/Metropolis-Bold.woff2') format('woff2'),
+    url('https://fonts.techbeatly.com/Metropolis-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap; // this is important for safari
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('https://fonts.techbeatly.com/Metropolis-Black.woff2') format('woff2'),
+    url('https://fonts.techbeatly.com/Metropolis-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap; // this is important for safari
+}
+
+/* GeneralSans */
+@font-face {
+  font-family: 'GeneralSans-VariableItalic';
+  src: url('https://fonts.techbeatly.com/GeneralSans-VariableItalic.woff2') format('woff2'),
+       url('https://fonts.techbeatly.com/GeneralSans-VariableItalic.woff') format('woff'),
+       url('https://fonts.techbeatly.com/GeneralSans-VariableItalic.ttf') format('truetype');
+       font-weight: 200 700;
+       font-display: swap;
+       font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'GeneralSans-Extralight';
+  src: url('https://fonts.techbeatly.com/GeneralSans-Extralight.woff2') format('woff2'),
+       url('https://fonts.techbeatly.com/GeneralSans-Extralight.woff') format('woff'),
+       url('https://fonts.techbeatly.com/GeneralSans-Extralight.ttf') format('truetype');
+       font-weight: 200;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GeneralSans-ExtralightItalic';
+  src: url('https://fonts.techbeatly.com/GeneralSans-ExtralightItalic.woff2') format('woff2'),
+       url('https://fonts.techbeatly.com/GeneralSans-ExtralightItalic.woff') format('woff'),
+       url('https://fonts.techbeatly.com/GeneralSans-ExtralightItalic.ttf') format('truetype');
+       font-weight: 200;
+       font-display: swap;
+       font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'GeneralSans-Light';
+  src: url('https://fonts.techbeatly.com/GeneralSans-Light.woff2') format('woff2'),
+       url('https://fonts.techbeatly.com/GeneralSans-Light.woff') format('woff'),
+       url('https://fonts.techbeatly.com/GeneralSans-Light.ttf') format('truetype');
+       font-weight: 300;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GeneralSans-LightItalic';
+  src: url('https://fonts.techbeatly.com/GeneralSans-LightItalic.woff2') format('woff2'),
+       url('https://fonts.techbeatly.com/GeneralSans-LightItalic.woff') format('woff'),
+       url('https://fonts.techbeatly.com/GeneralSans-LightItalic.ttf') format('truetype');
+       font-weight: 300;
+       font-display: swap;
+       font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'GeneralSans-Regular';
+  src: url('https://fonts.techbeatly.com/GeneralSans-Regular.woff2') format('woff2'),
+       url('https://fonts.techbeatly.com/GeneralSans-Regular.woff') format('woff'),
+       url('https://fonts.techbeatly.com/GeneralSans-Regular.ttf') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GeneralSans-Italic';
+  src: url('https://fonts.techbeatly.com/GeneralSans-Italic.woff2') format('woff2'),
+       url('https://fonts.techbeatly.com/GeneralSans-Italic.woff') format('woff'),
+       url('https://fonts.techbeatly.com/GeneralSans-Italic.ttf') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'GeneralSans-Medium';
+  src: url('https://fonts.techbeatly.com/GeneralSans-Medium.woff2') format('woff2'),
+       url('https://fonts.techbeatly.com/GeneralSans-Medium.woff') format('woff'),
+       url('https://fonts.techbeatly.com/GeneralSans-Medium.ttf') format('truetype');
+       font-weight: 500;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GeneralSans-MediumItalic';
+  src: url('https://fonts.techbeatly.com/GeneralSans-MediumItalic.woff2') format('woff2'),
+       url('https://fonts.techbeatly.com/GeneralSans-MediumItalic.woff') format('woff'),
+       url('https://fonts.techbeatly.com/GeneralSans-MediumItalic.ttf') format('truetype');
+       font-weight: 500;
+       font-display: swap;
+       font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'GeneralSans-Semibold';
+  src: url('https://fonts.techbeatly.com/GeneralSans-Semibold.woff2') format('woff2'),
+       url('https://fonts.techbeatly.com/GeneralSans-Semibold.woff') format('woff'),
+       url('https://fonts.techbeatly.com/GeneralSans-Semibold.ttf') format('truetype');
+       font-weight: 600;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GeneralSans-SemiboldItalic';
+  src: url('https://fonts.techbeatly.com/GeneralSans-SemiboldItalic.woff2') format('woff2'),
+       url('https://fonts.techbeatly.com/GeneralSans-SemiboldItalic.woff') format('woff'),
+       url('https://fonts.techbeatly.com/GeneralSans-SemiboldItalic.ttf') format('truetype');
+       font-weight: 600;
+       font-display: swap;
+       font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'GeneralSans-Bold';
+  src: url('https://fonts.techbeatly.com/GeneralSans-Bold.woff2') format('woff2'),
+       url('https://fonts.techbeatly.com/GeneralSans-Bold.woff') format('woff'),
+       url('https://fonts.techbeatly.com/GeneralSans-Bold.ttf') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GeneralSans-BoldItalic';
+  src: url('https://fonts.techbeatly.com/GeneralSans-BoldItalic.woff2') format('woff2'),
+       url('https://fonts.techbeatly.com/GeneralSans-BoldItalic.woff') format('woff'),
+       url('https://fonts.techbeatly.com/GeneralSans-BoldItalic.ttf') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: italic;
+}
+
+body {
+  color: #32383e;
+	font-weight: 500;
+	line-height: 180%;
+	font-family: 'GeneralSans-Medium','Metropolis', -apple-system, BlinkMacSystemFont,segoe ui,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+	font-size: 18px;
+}
+
+/* main text */
+.sek-module-inner p {
+	line-height: 160%;
+	/*font-family: -apple-system, BlinkMacSystemFont,segoe ui,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;*/
+	letter-spacing: 0px;
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.sek-module-inner p strong {
+	font-weight: 700;
+}
+
+/* line height for li */
+.sek-module-inner li {
+	line-height: 160%;
+	/*font-family: -apple-system, BlinkMacSystemFont,segoe ui,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;*/
+	letter-spacing: 0px;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.sek-module-inner li strong {
+	font-weight: 700;
+}
+.sek-module-inner a {
+	 text-decoration: none !important;
+}
+
+/* blockquote */
+.sek-module-inner blockquote {
+	font-size: 18px;
+}
+
+.wp-block-pullquote {
+	padding: 1.5em 0;
+}
+
+
+/* meta data */
+.sek-pg-metas a {
+	letter-spacing: -0.3px !important;
+}
+
+
+/* menu font */
+.sek-nav li {
+	/*font-family: -apple-system, BlinkMacSystemFont,segoe ui,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;*/
+	font-weight: 500 !important;
+}
+
+/* heading 1 */
+.sek-module-inner .sek-heading {
+  /*text-shadow: 2px 2px 5px #aaaaaa;*/
+}
+
+.sek-module-inner h1 {
+	font-weight: 900 !important;
+	font-size: 40px !important;
+	line-height: 120% !important;
+}
+
+/* heading css */
+.sek-module-inner h2 {
+	font-weight: 900 !important;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	letter-spacing: -0.5px;
+	color: #000;
+}
+
+.sek-module-inner h3, .sek-module-inner h4, .sek-module-inner h5, .sek-module-inner h6 {
+	font-weight: 800 !important;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	letter-spacing: -0.5px;
+	color: #000;
+}
+
+
+/* heading 2 - h2 */
+.sek-module-inner h2 {
+    font-size: 34px;
+}
+
+/* heading 3 - h3 */
+.sek-module-inner h3 {
+    font-size: 28px;
+}
+
+/* heading 4 - h4 */
+.sek-module-inner h4 {
+    font-size: 24px;
+}
+
+/*  snippet css */
+.sek-module-inner pre {
+	border: 1px solid #ddd;
+  border-left: 6px solid #3498DB;
+  background-color: #f5f5f5;
+  padding: 15px;
+	word-wrap: break-word;
+  overflow-x: auto;
+  overflow-y: hidden;
+  color: #24292e;    
+  white-space: pre;
+  margin: 0 0 5px;
+	font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	font-size-adjust: none;
+	font-stretch: normal;
+	font-feature-settings: normal;
+	font-language-override: normal;
+	font-kerning: auto;
+	font-variant-alternates: normal;
+	font-variant-caps: normal;
+	font-variant-east-asian: normal;
+	font-variant-ligatures: normal;
+	font-variant-numeric: normal;
+	font-variant-position: normal;
+}
+
+.sek-module-inner pre code {
+	font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace !important;
+}
+
+/*-- code in line --*/
+.sek-module-inner p code {
+	font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+	background-color: #f5f5f5;
+	font-weight: normal;
+	padding: 3px;
+}
+
+/*-- code in list item */
+.sek-module-inner li code {
+	font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+	background-color: #f5f5f5;
+	font-weight: normal;
+	padding: 3px;
+}
+
+/* Tags css */
+.sek-post-tags a {
+	background-color: #ddf4ff;
+	border-radius: 25px;
+  display: inline-block;
+  white-space: normal;
+  padding: 5px 10px 5px 10px;
+  margin: 5px 1px 5px 1px;
+  font-weight: 600;
+  color: #0969da;
+	text-decoration: none !important;
+}
+
+/* remove link underline */
+.sek-module-inner p a {
+	text-decoration: none !important;
+}
+
+/* p link hover */
+.sek-module-inner p a:hover {
+	color: #e84c09;
+}
+
+/* adjust sek-excerpt line-height */
+.sek-excerpt p {
+	line-height: 26px !important;
+}
+
+/* highlighted blocks */
+.has-background {
+	padding: 25px 25px 25px 25px !important;
+}
+
+/* search box css */
+label.wp-block-search__label {
+  font-weight: 600;
+  color: black;
+  font-size: 20px !important;
+}
+
+input.wp-block-search__input {
+  font-size: 14px !important;
+	padding: 10px 10px 10px 10px;
+	min-width: 40px;
+	max-width: 200px;
+	height: 50px;
+}
+
+button.wp-block-search__button {
+  font-size: 14px !important;
+	font-weight: 600;
+	height: 50px;
+	max-width: 150px;
+}
+
+/* fix table */
+.sek-module-inner table:not([id^=wp-calendar]):not(.ui-datepicker-calendar):not(.tribe-mini-calendar) th {
+	font-weight: 900;
+	/*font-family: -apple-system, BlinkMacSystemFont,segoe ui,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;*/
+	letter-spacing: -0.87px;
+}
+
+.sek-module-inner table:not([id^=wp-calendar]):not(.ui-datepicker-calendar):not(.tribe-mini-calendar) {
+	border: 0px solid #eceeef;
+}
+
+.sek-module-inner table:not([id^=wp-calendar]):not(.ui-datepicker-calendar):not(.tribe-mini-calendar) td {
+    color: #000;
+}
+
+.landing-page-main {
+	background-image: linear-gradient( 
+45deg
+, #ffecca, #a2eeff);
+}
+
+/* table align left */
+.sek-module-inner figure {
+    text-align: left;
+}
+
+/* page color */
+.sek-post-navigation #sek-nav-below {
+    background-color: #ffffff;
+}
+
+/* previous and next posts */
+
+.sek-next-post-link a, .sek-previous-post-link a {
+	line-height: 150% !important;
+}
+
+/* related posts */
+h4.jp-relatedposts-post-title, h4.jp-relatedposts-post-title a {
+  font-size: 18px !important;
+	font-weight: 600 !important;
+  line-height: 140%;
+	padding-top: 10px;
+}
